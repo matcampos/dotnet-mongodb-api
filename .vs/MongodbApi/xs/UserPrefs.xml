@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{2D310615-AC17-4C03-8313-CF607520DEF9}|Default">
+  <MonoDevelop.Ide.ItemProperties.MongodbApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MongodbApi/Startup.cs">
+    <Files>
+      <File FileName="MongodbApi/services/BookService.cs" Line="39" Column="73" />
+      <File FileName="MongodbApi/Controllers/BooksController.cs" Line="48" Column="10" />
+      <File FileName="MongodbApi/Program.cs" Line="1" Column="1" />
+      <File FileName="MongodbApi/Startup.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MongodbApi" expanded="True">
+            <Node name="MongodbApi" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="services" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
