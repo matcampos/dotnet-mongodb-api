@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/matheus/Projects/MongodbApi/MongodbApi/MongodbApi.csproj": {}
+    "/home/matheus/Projects/dotnet-mongodb-api/MongodbApi/MongodbApi.csproj": {}
   },
   "projects": {
-    "/Users/matheus/Projects/MongodbApi/MongodbApi/MongodbApi.csproj": {
+    "/home/matheus/Projects/dotnet-mongodb-api/MongodbApi/MongodbApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/matheus/Projects/MongodbApi/MongodbApi/MongodbApi.csproj",
+        "projectUniqueName": "/home/matheus/Projects/dotnet-mongodb-api/MongodbApi/MongodbApi.csproj",
         "projectName": "MongodbApi",
-        "projectPath": "/Users/matheus/Projects/MongodbApi/MongodbApi/MongodbApi.csproj",
-        "packagesPath": "/Users/matheus/.nuget/packages/",
-        "outputPath": "/Users/matheus/Projects/MongodbApi/MongodbApi/obj/",
+        "projectPath": "/home/matheus/Projects/dotnet-mongodb-api/MongodbApi/MongodbApi.csproj",
+        "packagesPath": "/home/matheus/.nuget/packages/",
+        "outputPath": "/home/matheus/Projects/dotnet-mongodb-api/MongodbApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/matheus/.nuget/NuGet/NuGet.Config"
+          "/home/matheus/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -24,7 +24,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -36,7 +35,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -69,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.409/RuntimeIdentifierGraph.json"
         }
       }
     }
