@@ -51,7 +51,7 @@ namespace MongodbApi.Services
 
             List<Book> result = await documents.ToListAsync();
 
-            var count = await _books.CountDocumentsAsync(new BsonDocument());
+            long count = await _books.CountDocumentsAsync(new BsonDocument());
 
             return new BookPaginatedList
             {
