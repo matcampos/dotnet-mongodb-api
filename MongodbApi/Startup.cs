@@ -29,7 +29,7 @@ namespace MongodbApi
             services.AddSingleton<IBookstoreDatabaseSettings>(sp =>
                 sp.GetRequiredService<IOptions<BookstoreDatabaseSettings>>().Value);
 
-            services.AddSingleton<BookService>();
+            services.AddScoped<IBookService, BookService>();
 
             services.AddControllers().AddNewtonsoftJson(options => options.UseMemberCasing());
         }
@@ -41,8 +41,6 @@ namespace MongodbApi
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            app.UseHttpsRedirection();
 
             app.UseRouting();
 
