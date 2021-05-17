@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace MongodbApi.Services
 {
-    public class BookService
+    public interface IBookService {
+        Task<IList<Book>> GetAll();
+        Task<Book> Get(string id);
+        Task<Book> Create(Book book);
+        Task Update(string id, Book bookIn);
+        Task Remove(string id);
+        Task<BookPaginatedList> GetAllPaginated(int offset, int limit);
+    }
+
+    public class BookService: IBookService
     {
         private readonly IMongoCollection<Book> _books;
 
@@ -36,9 +45,6 @@ namespace MongodbApi.Services
         public async Task Update(string id, Book bookIn) =>
 
             await _books.ReplaceOneAsync(book => book.Id == id, bookIn);
-
-        public async Task Remove(Book bookIn) =>
-            await _books.DeleteOneAsync(book => book.Id == bookIn.Id);
 
         public async Task Remove(string id) =>
             await _books.DeleteOneAsync(book => book.Id == id);
